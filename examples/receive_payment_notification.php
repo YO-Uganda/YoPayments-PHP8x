@@ -5,7 +5,7 @@
  * request
  */
 
-require './YoAPI.php';
+require '../YoAPI.php';
 
 if(isset($_POST)){
 	//Set below variables to your Yo! Payments username and password accordingly

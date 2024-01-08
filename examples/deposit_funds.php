@@ -4,7 +4,7 @@
  * prompt to transfer funds from a mobile money user to your Yo! Payments Account
  */
 
-require './YoAPI.php';
+require '../YoAPI.php';
 
 // Create a new YoAPI instance with Yo! Payments Username and Password
 //Set below variables to your Yo! Payments username and password accordingly

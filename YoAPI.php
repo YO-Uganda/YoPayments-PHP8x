@@ -1222,8 +1222,6 @@ class YoAPI {
 
         $signature_base64 = base64_encode($signature);
 
-        openssl_free_key($pkeyid);
-
         $this->public_key_authentication_signature_base64 = $signature_base64;
     }
 
@@ -1262,7 +1260,6 @@ class YoAPI {
         fclose($fh);
         $key_id = openssl_pkey_get_public($key);
         $verified = openssl_verify($data, $signature, $key_id);
-        openssl_free_key($key_id);
 
         if($verified == 1){
             return true;
@@ -1286,7 +1283,6 @@ class YoAPI {
         fclose($fh);
         $key_id = openssl_pkey_get_public($key);
         $verified = openssl_verify($data, $signature, $key_id);
-        openssl_free_key($key_id);
 
         if($verified == 1){
             return true;
