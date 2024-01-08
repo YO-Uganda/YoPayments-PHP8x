@@ -1,7 +1,7 @@
 {
-    "name": "yo-uganda/yopaymentsphp",
+    "name": "yo-uganda/yopaymentsphp8x",
     "type": "library",
-    "description": "A PHP Library to interact with the Yo! Payments API.",
+    "description": "A PHP 8.x Library to interact with the Yo! Payments API.",
     "keywords": ["YoPayments", "mobile money", "composer", "package"], 
     "license": "MIT", 
     "version": "1.1",
@@ -20,7 +20,7 @@
         } 
     ],
     "require": {
-        "php": "^5.3.3 || ^7.0" 	
+        "php": "^5.3.3 || ^7.0 || ^8.0" 	
     },
     "autoload": {
         "classmap": [
