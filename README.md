@@ -36,6 +36,7 @@ require 'vendor/autoload.php';
 ```
 And voila! The Yo! Payments PHP API is now available for use.
 
+
 Alternatively, copy the contents of the YoPaymentsPHP folder into one of the ```include_path``` directories specified in your PHP configuration.
 
 If you don't use git, click the 'zip' button at the top of the page in GitHub.
